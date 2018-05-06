@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imgs{
+    display: flex;
+    align-items: flex-start;
+    transition: all 0.5s;
+}
+.window{
+    width:720px;
+    overflow: hidden;
+    margin:0 auto;
+}
+#buttons>span.red{
+    color:red;
+    box-shadow: inset 0 0 60px #fff;
+    border-radius: 5px;
+}
+.imgs>img{
+    width:720px;
+}
+#buttons{
+    background: linear-gradient(to bottom, #f1efef 0%,#bebebe 100%);
+    width:720px;
+    text-align:center;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,.4);
+}
+#buttons>span{
+    display: inline-block;
+    margin: 5px 5px;
+    padding-top: 10px;
+    width:60px;
+    height: 60px;
+    background: linear-gradient(to bottom, #f1efef 0%,#bebebe 100%);
+    border-radius: 5px;
+}
+#buttons>span>svg{
+    width:40px;
+    height:40px;
+}
+#buttons>span:hover{
+    background: #ddd
+    border-radius: 5px;
+}
